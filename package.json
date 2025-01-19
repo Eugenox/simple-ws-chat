@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "expressjs": "^1.0.1",
+    "serve-static": "^1.16.2",
+    "ws": "^8.18.0"
+  }
+}
