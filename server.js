@@ -4,7 +4,7 @@ const path = require("path")
 
 
 const app = express();
-app.use(express.static(path.join(__dirname, './webchat/build')));
+app.use(express.static(path.join(__dirname, './chat/build')));
 
 app.get('/', (req, res) => {
     res.send('Сервер працює!');
